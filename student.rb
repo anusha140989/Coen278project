@@ -1,3 +1,4 @@
+#StudentData table is created in StudentData Database with all the necessary details. Creating, editing and deleting the student information is taken care in this code.
 require 'data_mapper'
 
 class StudentData
