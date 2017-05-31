@@ -21,11 +21,7 @@ end
 get('/styles.css'){ scss :styles }
 
 get '/' do
-  if session[:admin]
     erb :home
-  else
-    erb :login
-  end
 end
 
 get '/about' do
