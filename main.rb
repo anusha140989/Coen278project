@@ -1,4 +1,4 @@
-#Main code which will show the working of whole application. 
+#Main code which will show the working of whole application. StudentData Database is created for tables.
 require 'sinatra'
 require 'slim'
 require 'sass'
