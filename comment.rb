@@ -1,3 +1,4 @@
+#CommentData table is created in StudentData Database with all the necessary details. Creating and viewing the comment deatils are taken care here.
 require 'data_mapper'
 
 
