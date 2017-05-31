@@ -1,3 +1,4 @@
+#Main code which will show the working of whole application
 require 'sinatra'
 require 'slim'
 require 'sass'
