@@ -1,7 +1,7 @@
 <label for="sfname">First Name:</label>
-<input id="sfname" name="student[sfname]" type="text" value="<%= ::Temple::Utils.escape_html((@student.sfname)) %>" required/>
+<input id="sfname" name="student[sfname]" type="text" value="<%= ::Temple::Utils.escape_html((@student.sfname)) %>" pattern="(?=.*([\w]).*)[ \w]*" required/>
 <label for="slname">Last Name:</label>
-<input id="slname" name="student[slname]" type="text" value="<%= ::Temple::Utils.escape_html((@student.slname)) %>" required/>
+<input id="slname" name="student[slname]" type="text" value="<%= ::Temple::Utils.escape_html((@student.slname)) %>" pattern="(?=.*([\w]).*)[ \w]*" required/>
 <label for="major">Major:</label>
 <input id="major" name="student[major]" type="text" value="<%= ::Temple::Utils.escape_html((@student.major)) %>" required/>
 <label for="gpa">Students GPA:</label>
